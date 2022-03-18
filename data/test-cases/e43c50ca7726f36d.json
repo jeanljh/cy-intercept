@@ -1,12 +1,12 @@
 {
-  "uid" : "b10b45a997cd9405",
+  "uid" : "e43c50ca7726f36d",
   "name" : "Intercept request to spy response body from page loading",
   "fullName" : "Intercept request to spy response body from page loading",
   "historyId" : "2994076e6cf026c73e647afbd79f168d",
   "time" : {
-    "start" : 1647611262817,
-    "stop" : 1647611273590,
-    "duration" : 10773
+    "start" : 1647611477707,
+    "stop" : 1647611481030,
+    "duration" : 3323
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "intercept (\"**/search*\")",
       "time" : {
-        "start" : 1647611262849,
-        "stop" : 1647611262859,
-        "duration" : 10
+        "start" : 1647611477728,
+        "stop" : 1647611477734,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,9 +36,9 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1647611262860,
-        "stop" : 1647611262861,
-        "duration" : 1
+        "start" : 1647611477735,
+        "stop" : 1647611477735,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "visit (\"\")",
       "time" : {
-        "start" : 1647611262861,
-        "stop" : 1647611271113,
-        "duration" : 8252
+        "start" : 1647611477735,
+        "stop" : 1647611478595,
+        "duration" : 860
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,8 +66,8 @@
     }, {
       "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
       "time" : {
-        "start" : 1647611271113,
-        "stop" : 1647611271113,
+        "start" : 1647611478595,
+        "stop" : 1647611478595,
         "duration" : 0
       },
       "status" : "passed",
@@ -81,9 +81,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611271113,
-        "stop" : 1647611271867,
-        "duration" : 754
+        "start" : 1647611478595,
+        "stop" : 1647611479411,
+        "duration" : 816
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,9 +96,9 @@
     }, {
       "name" : "intercept (\"**/search?*page=1*\")",
       "time" : {
-        "start" : 1647611271867,
-        "stop" : 1647611271975,
-        "duration" : 108
+        "start" : 1647611479412,
+        "stop" : 1647611479463,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,8 +111,8 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1647611271976,
-        "stop" : 1647611271976,
+        "start" : 1647611479463,
+        "stop" : 1647611479463,
         "duration" : 0
       },
       "status" : "passed",
@@ -126,9 +126,9 @@
     }, {
       "name" : "contains button, More",
       "time" : {
-        "start" : 1647611271976,
-        "stop" : 1647611272014,
-        "duration" : 38
+        "start" : 1647611479463,
+        "stop" : 1647611479483,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,9 +141,9 @@
     }, {
       "name" : "scrollIntoView",
       "time" : {
-        "start" : 1647611272014,
-        "stop" : 1647611272041,
-        "duration" : 27
+        "start" : 1647611479483,
+        "stop" : 1647611479490,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,9 +156,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647611272042,
-        "stop" : 1647611272227,
-        "duration" : 185
+        "start" : 1647611479490,
+        "stop" : 1647611479598,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
@@ -171,8 +171,8 @@
     }, {
       "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=1&hitsPerPage=100",
       "time" : {
-        "start" : 1647611272226,
-        "stop" : 1647611272226,
+        "start" : 1647611479598,
+        "stop" : 1647611479598,
         "duration" : 0
       },
       "status" : "passed",
@@ -186,9 +186,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611272227,
-        "stop" : 1647611272712,
-        "duration" : 485
+        "start" : 1647611479598,
+        "stop" : 1647611480078,
+        "duration" : 480
       },
       "status" : "passed",
       "steps" : [ ],
@@ -201,9 +201,9 @@
     }, {
       "name" : "its .response.body.hits.length",
       "time" : {
-        "start" : 1647611272712,
-        "stop" : 1647611272753,
-        "duration" : 41
+        "start" : 1647611480078,
+        "stop" : 1647611480099,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -216,8 +216,8 @@
     }, {
       "name" : "assert expected **100** to be at most **100**",
       "time" : {
-        "start" : 1647611272752,
-        "stop" : 1647611272752,
+        "start" : 1647611480099,
+        "stop" : 1647611480099,
         "duration" : 0
       },
       "status" : "passed",
@@ -237,9 +237,9 @@
     }, {
       "name" : "intercept (\"**/search?*page=2*\")",
       "time" : {
-        "start" : 1647611272753,
-        "stop" : 1647611272812,
-        "duration" : 59
+        "start" : 1647611480099,
+        "stop" : 1647611480157,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
@@ -252,8 +252,8 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1647611272812,
-        "stop" : 1647611272812,
+        "start" : 1647611480157,
+        "stop" : 1647611480157,
         "duration" : 0
       },
       "status" : "passed",
@@ -267,9 +267,9 @@
     }, {
       "name" : "contains button, More",
       "time" : {
-        "start" : 1647611272812,
-        "stop" : 1647611272837,
-        "duration" : 25
+        "start" : 1647611480157,
+        "stop" : 1647611480168,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -282,9 +282,9 @@
     }, {
       "name" : "scrollIntoView",
       "time" : {
-        "start" : 1647611272837,
-        "stop" : 1647611272846,
-        "duration" : 9
+        "start" : 1647611480168,
+        "stop" : 1647611480172,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -297,9 +297,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647611272846,
-        "stop" : 1647611273046,
-        "duration" : 200
+        "start" : 1647611480172,
+        "stop" : 1647611480379,
+        "duration" : 207
       },
       "status" : "passed",
       "steps" : [ ],
@@ -312,8 +312,8 @@
     }, {
       "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=2&hitsPerPage=100",
       "time" : {
-        "start" : 1647611273046,
-        "stop" : 1647611273046,
+        "start" : 1647611480379,
+        "stop" : 1647611480379,
         "duration" : 0
       },
       "status" : "passed",
@@ -327,9 +327,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611273046,
-        "stop" : 1647611273051,
-        "duration" : 5
+        "start" : 1647611480379,
+        "stop" : 1647611480381,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -342,9 +342,9 @@
     }, {
       "name" : "its .response.body.hits.length",
       "time" : {
-        "start" : 1647611273051,
-        "stop" : 1647611273063,
-        "duration" : 12
+        "start" : 1647611480381,
+        "stop" : 1647611480384,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -357,8 +357,8 @@
     }, {
       "name" : "assert expected **100** to be at most **100**",
       "time" : {
-        "start" : 1647611273062,
-        "stop" : 1647611273062,
+        "start" : 1647611480384,
+        "stop" : 1647611480384,
         "duration" : 0
       },
       "status" : "passed",
@@ -378,9 +378,9 @@
     }, {
       "name" : "intercept (\"**/search?*page=3*\")",
       "time" : {
-        "start" : 1647611273063,
-        "stop" : 1647611273072,
-        "duration" : 9
+        "start" : 1647611480384,
+        "stop" : 1647611480391,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -393,8 +393,8 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1647611273072,
-        "stop" : 1647611273072,
+        "start" : 1647611480391,
+        "stop" : 1647611480391,
         "duration" : 0
       },
       "status" : "passed",
@@ -408,9 +408,9 @@
     }, {
       "name" : "contains button, More",
       "time" : {
-        "start" : 1647611273073,
-        "stop" : 1647611273313,
-        "duration" : 240
+        "start" : 1647611480391,
+        "stop" : 1647611480842,
+        "duration" : 451
       },
       "status" : "passed",
       "steps" : [ ],
@@ -423,9 +423,9 @@
     }, {
       "name" : "scrollIntoView",
       "time" : {
-        "start" : 1647611273313,
-        "stop" : 1647611273323,
-        "duration" : 10
+        "start" : 1647611480842,
+        "stop" : 1647611480844,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -438,9 +438,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647611273323,
-        "stop" : 1647611273578,
-        "duration" : 255
+        "start" : 1647611480844,
+        "stop" : 1647611481025,
+        "duration" : 181
       },
       "status" : "passed",
       "steps" : [ ],
@@ -453,8 +453,8 @@
     }, {
       "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=3&hitsPerPage=100",
       "time" : {
-        "start" : 1647611273578,
-        "stop" : 1647611273578,
+        "start" : 1647611481024,
+        "stop" : 1647611481024,
         "duration" : 0
       },
       "status" : "passed",
@@ -468,9 +468,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611273578,
-        "stop" : 1647611273581,
-        "duration" : 3
+        "start" : 1647611481025,
+        "stop" : 1647611481026,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -483,9 +483,9 @@
     }, {
       "name" : "its .response.body.hits.length",
       "time" : {
-        "start" : 1647611273581,
-        "stop" : 1647611273587,
-        "duration" : 6
+        "start" : 1647611481026,
+        "stop" : 1647611481028,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -498,8 +498,8 @@
     }, {
       "name" : "assert expected **100** to be at most **100**",
       "time" : {
-        "start" : 1647611273586,
-        "stop" : 1647611273586,
+        "start" : 1647611481028,
+        "stop" : 1647611481028,
         "duration" : 0
       },
       "status" : "passed",
@@ -542,6 +542,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b10b45a997cd9405.json",
+  "source" : "e43c50ca7726f36d.json",
   "parameterValues" : [ ]
 }

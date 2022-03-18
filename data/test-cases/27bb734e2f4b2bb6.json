@@ -1,12 +1,12 @@
 {
-  "uid" : "6a7ebab2da0336d",
+  "uid" : "27bb734e2f4b2bb6",
   "name" : "Intercept request to stub entire response body via RouteHandler",
   "fullName" : "Intercept request to stub entire response body via RouteHandler",
   "historyId" : "58ae91f159d393638e87be62a3dfba42",
   "time" : {
-    "start" : 1647611291883,
-    "stop" : 1647611292834,
-    "duration" : 951
+    "start" : 1647611496183,
+    "stop" : 1647611497069,
+    "duration" : 886
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Intercept request verify response ",
       "time" : {
-        "start" : 1647611291884,
-        "stop" : 1647611292375,
-        "duration" : 491
+        "start" : 1647611496184,
+        "stop" : 1647611496617,
+        "duration" : 433
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"{ method: 'GET',\n  path: '**/search?query=redux&page=0&hitsPerPage=100' }\")",
         "time" : {
-          "start" : 1647611291936,
-          "stop" : 1647611291939,
-          "duration" : 3
+          "start" : 1647611496203,
+          "stop" : 1647611496205,
+          "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,8 +44,8 @@
       }, {
         "name" : "as (\"req\")",
         "time" : {
-          "start" : 1647611291939,
-          "stop" : 1647611291939,
+          "start" : 1647611496205,
+          "stop" : 1647611496205,
           "duration" : 0
         },
         "status" : "passed",
@@ -59,9 +59,9 @@
       }, {
         "name" : "visit (\"\")",
         "time" : {
-          "start" : 1647611291939,
-          "stop" : 1647611292128,
-          "duration" : 189
+          "start" : 1647611496205,
+          "stop" : 1647611496398,
+          "duration" : 193
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,9 +74,9 @@
       }, {
         "name" : "wait @req",
         "time" : {
-          "start" : 1647611292128,
-          "stop" : 1647611292316,
-          "duration" : 188
+          "start" : 1647611496398,
+          "stop" : 1647611496563,
+          "duration" : 165
         },
         "status" : "passed",
         "steps" : [ ],
@@ -89,8 +89,8 @@
       }, {
         "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1647611292316,
-          "stop" : 1647611292316,
+          "start" : 1647611496563,
+          "stop" : 1647611496563,
           "duration" : 0
         },
         "status" : "passed",
@@ -104,8 +104,8 @@
       }, {
         "name" : "assert expected **0** to equal **0**",
         "time" : {
-          "start" : 1647611292371,
-          "stop" : 1647611292372,
+          "start" : 1647611496606,
+          "stop" : 1647611496607,
           "duration" : 1
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have property **length**",
         "time" : {
-          "start" : 1647611292373,
-          "stop" : 1647611292374,
-          "duration" : 1
+          "start" : 1647611496607,
+          "stop" : 1647611496616,
+          "duration" : 9
         },
         "status" : "passed",
         "steps" : [ ],
@@ -137,8 +137,8 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have a length at most **100**",
         "time" : {
-          "start" : 1647611292374,
-          "stop" : 1647611292374,
+          "start" : 1647611496617,
+          "stop" : 1647611496617,
           "duration" : 0
         },
         "status" : "passed",
@@ -158,8 +158,8 @@
       }, {
         "name" : "assert expected **200** to equal **200**",
         "time" : {
-          "start" : 1647611292374,
-          "stop" : 1647611292374,
+          "start" : 1647611496617,
+          "stop" : 1647611496617,
           "duration" : 0
         },
         "status" : "passed",
@@ -186,9 +186,9 @@
     }, {
       "name" : "intercept (\"**/search*\"; \"[function]\")",
       "time" : {
-        "start" : 1647611292376,
-        "stop" : 1647611292425,
-        "duration" : 49
+        "start" : 1647611496618,
+        "stop" : 1647611496683,
+        "duration" : 65
       },
       "status" : "passed",
       "steps" : [ ],
@@ -201,16 +201,16 @@
     }, {
       "name" : "inputSearch (\"cypress\")",
       "time" : {
-        "start" : 1647611292425,
-        "stop" : 1647611292821,
-        "duration" : 396
+        "start" : 1647611496683,
+        "stop" : 1647611497061,
+        "duration" : 378
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get input",
         "time" : {
-          "start" : 1647611292426,
-          "stop" : 1647611292430,
+          "start" : 1647611496683,
+          "stop" : 1647611496687,
           "duration" : 4
         },
         "status" : "passed",
@@ -224,9 +224,9 @@
       }, {
         "name" : "clear",
         "time" : {
-          "start" : 1647611292430,
-          "stop" : 1647611292558,
-          "duration" : 128
+          "start" : 1647611496687,
+          "stop" : 1647611496801,
+          "duration" : 114
         },
         "status" : "passed",
         "steps" : [ ],
@@ -239,8 +239,8 @@
       }, {
         "name" : "assert expected **<input>** to be **empty**",
         "time" : {
-          "start" : 1647611292557,
-          "stop" : 1647611292557,
+          "start" : 1647611496800,
+          "stop" : 1647611496800,
           "duration" : 0
         },
         "status" : "passed",
@@ -254,9 +254,9 @@
       }, {
         "name" : "type cypress{enter}",
         "time" : {
-          "start" : 1647611292558,
-          "stop" : 1647611292821,
-          "duration" : 263
+          "start" : 1647611496801,
+          "stop" : 1647611497061,
+          "duration" : 260
         },
         "status" : "passed",
         "steps" : [ ],
@@ -269,8 +269,8 @@
       }, {
         "name" : "GET 200 https://hn.algolia.com/api/v1/search?query=cypress&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1647611292821,
-          "stop" : 1647611292821,
+          "start" : 1647611497061,
+          "stop" : 1647611497061,
           "duration" : 0
         },
         "status" : "passed",
@@ -291,9 +291,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611292821,
-        "stop" : 1647611292822,
-        "duration" : 1
+        "start" : 1647611497061,
+        "stop" : 1647611497065,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -306,9 +306,9 @@
     }, {
       "name" : "assert expected **[ Array(1) ]** to have a length of **1**",
       "time" : {
-        "start" : 1647611292833,
-        "stop" : 1647611292833,
-        "duration" : 0
+        "start" : 1647611497068,
+        "stop" : 1647611497069,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -327,8 +327,8 @@
     }, {
       "name" : "assert expected **{ Object (input, defInput, ...) }** to deeply equal **{ Object (input, defInput, ...) }**",
       "time" : {
-        "start" : 1647611292833,
-        "stop" : 1647611292833,
+        "start" : 1647611497069,
+        "stop" : 1647611497069,
         "duration" : 0
       },
       "status" : "passed",
@@ -348,8 +348,8 @@
     }, {
       "name" : "assert expected **[ Array(1) ]** to have property **length**",
       "time" : {
-        "start" : 1647611292833,
-        "stop" : 1647611292833,
+        "start" : 1647611497069,
+        "stop" : 1647611497069,
         "duration" : 0
       },
       "status" : "passed",
@@ -389,6 +389,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a7ebab2da0336d.json",
+  "source" : "27bb734e2f4b2bb6.json",
   "parameterValues" : [ ]
 }

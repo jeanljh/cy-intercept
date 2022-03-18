@@ -1,70 +1,70 @@
 [ {
-  "uid" : "eebe8c42f412c30c",
+  "uid" : "38dfa3952f8ceefb",
   "name" : "Intercept request to stub server error",
   "time" : {
-    "start" : 1647611273618,
-    "stop" : 1647611274048,
-    "duration" : 430
+    "start" : 1647611481040,
+    "stop" : 1647611481243,
+    "duration" : 203
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b10b45a997cd9405",
-  "name" : "Intercept request to spy response body from page loading",
-  "time" : {
-    "start" : 1647611262817,
-    "stop" : 1647611273590,
-    "duration" : 10773
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a7ebab2da0336d",
+  "uid" : "27bb734e2f4b2bb6",
   "name" : "Intercept request to stub entire response body via RouteHandler",
   "time" : {
-    "start" : 1647611291883,
-    "stop" : 1647611292834,
-    "duration" : 951
+    "start" : 1647611496183,
+    "stop" : 1647611497069,
+    "duration" : 886
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8326952e2f94f672",
-  "name" : "Intercept request to stub entire response body via StaticResponce",
+  "uid" : "e43c50ca7726f36d",
+  "name" : "Intercept request to spy response body from page loading",
   "time" : {
-    "start" : 1647611292844,
-    "stop" : 1647611294135,
-    "duration" : 1291
+    "start" : 1647611477707,
+    "stop" : 1647611481030,
+    "duration" : 3323
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7823ca73c64e14d3",
-  "name" : "Intercept request to spy response from search via RouteHandler",
-  "time" : {
-    "start" : 1647611280331,
-    "stop" : 1647611289757,
-    "duration" : 9426
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e37ae7d3f8c57629",
+  "uid" : "b241a2ba7c876f2e",
   "name" : "Intercept request to stub network error",
   "time" : {
-    "start" : 1647611274055,
-    "stop" : 1647611274322,
-    "duration" : 267
+    "start" : 1647611481246,
+    "stop" : 1647611481502,
+    "duration" : 256
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "81419ffa3589d1be",
+  "uid" : "1762ce8ab5601740",
   "name" : "Intercept request to stub data in response body via RouteHandler",
   "time" : {
-    "start" : 1647611289876,
-    "stop" : 1647611291762,
-    "duration" : 1886
+    "start" : 1647611494340,
+    "stop" : 1647611496128,
+    "duration" : 1788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d627733d19a8fa8c",
+  "name" : "Intercept request to stub entire response body via StaticResponce",
+  "time" : {
+    "start" : 1647611497080,
+    "stop" : 1647611498157,
+    "duration" : 1077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4533cb1723153e6",
+  "name" : "Intercept request to spy response from search via RouteHandler",
+  "time" : {
+    "start" : 1647611485832,
+    "stop" : 1647611494271,
+    "duration" : 8439
   },
   "status" : "passed",
   "severity" : "normal"

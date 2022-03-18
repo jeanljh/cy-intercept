@@ -1,12 +1,12 @@
 {
-  "uid" : "7823ca73c64e14d3",
+  "uid" : "c4533cb1723153e6",
   "name" : "Intercept request to spy response from search via RouteHandler",
   "fullName" : "Intercept request to spy response from search via RouteHandler",
   "historyId" : "ed2a50c424d6b709319d19b1f84c3f38",
   "time" : {
-    "start" : 1647611280331,
-    "stop" : 1647611289757,
-    "duration" : 9426
+    "start" : 1647611485832,
+    "stop" : 1647611494271,
+    "duration" : 8439
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Intercept request verify response ",
       "time" : {
-        "start" : 1647611280333,
-        "stop" : 1647611280853,
-        "duration" : 520
+        "start" : 1647611485833,
+        "stop" : 1647611486509,
+        "duration" : 676
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"{ method: 'GET',\n  path: '**/search?query=redux&page=0&hitsPerPage=100' }\")",
         "time" : {
-          "start" : 1647611280362,
-          "stop" : 1647611280374,
-          "duration" : 12
+          "start" : 1647611485856,
+          "stop" : 1647611485862,
+          "duration" : 6
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,9 +44,9 @@
       }, {
         "name" : "as (\"req\")",
         "time" : {
-          "start" : 1647611280374,
-          "stop" : 1647611280375,
-          "duration" : 1
+          "start" : 1647611485863,
+          "stop" : 1647611485863,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -59,9 +59,9 @@
       }, {
         "name" : "visit (\"\")",
         "time" : {
-          "start" : 1647611280375,
-          "stop" : 1647611280542,
-          "duration" : 167
+          "start" : 1647611485863,
+          "stop" : 1647611486013,
+          "duration" : 150
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,9 +74,9 @@
       }, {
         "name" : "wait @req",
         "time" : {
-          "start" : 1647611280543,
-          "stop" : 1647611280794,
-          "duration" : 251
+          "start" : 1647611486013,
+          "stop" : 1647611486468,
+          "duration" : 455
         },
         "status" : "passed",
         "steps" : [ ],
@@ -89,8 +89,8 @@
       }, {
         "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1647611280794,
-          "stop" : 1647611280794,
+          "start" : 1647611486468,
+          "stop" : 1647611486468,
           "duration" : 0
         },
         "status" : "passed",
@@ -104,9 +104,9 @@
       }, {
         "name" : "assert expected **0** to equal **0**",
         "time" : {
-          "start" : 1647611280846,
-          "stop" : 1647611280849,
-          "duration" : 3
+          "start" : 1647611486496,
+          "stop" : 1647611486501,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,9 +119,9 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have property **length**",
         "time" : {
-          "start" : 1647611280850,
-          "stop" : 1647611280851,
-          "duration" : 1
+          "start" : 1647611486501,
+          "stop" : 1647611486507,
+          "duration" : 6
         },
         "status" : "passed",
         "steps" : [ ],
@@ -137,8 +137,8 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have a length at most **100**",
         "time" : {
-          "start" : 1647611280851,
-          "stop" : 1647611280851,
+          "start" : 1647611486508,
+          "stop" : 1647611486508,
           "duration" : 0
         },
         "status" : "passed",
@@ -158,8 +158,8 @@
       }, {
         "name" : "assert expected **200** to equal **200**",
         "time" : {
-          "start" : 1647611280851,
-          "stop" : 1647611280851,
+          "start" : 1647611486508,
+          "stop" : 1647611486508,
           "duration" : 0
         },
         "status" : "passed",
@@ -186,9 +186,9 @@
     }, {
       "name" : "intercept (\"{ method: 'GET',\n  pathname: '**/search*',\n  query: { query: 'cypress', page: '0', hitsPerPage: '100' } }\")",
       "time" : {
-        "start" : 1647611280857,
-        "stop" : 1647611280887,
-        "duration" : 30
+        "start" : 1647611486512,
+        "stop" : 1647611486544,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -201,8 +201,8 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1647611280887,
-        "stop" : 1647611280888,
+        "start" : 1647611486544,
+        "stop" : 1647611486545,
         "duration" : 1
       },
       "status" : "passed",
@@ -216,17 +216,17 @@
     }, {
       "name" : "inputSearch (\"cypress\")",
       "time" : {
-        "start" : 1647611280888,
-        "stop" : 1647611281377,
-        "duration" : 489
+        "start" : 1647611486545,
+        "stop" : 1647611486919,
+        "duration" : 374
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get input",
         "time" : {
-          "start" : 1647611280889,
-          "stop" : 1647611280929,
-          "duration" : 40
+          "start" : 1647611486545,
+          "stop" : 1647611486557,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ ],
@@ -239,9 +239,9 @@
       }, {
         "name" : "clear",
         "time" : {
-          "start" : 1647611280929,
-          "stop" : 1647611281092,
-          "duration" : 163
+          "start" : 1647611486557,
+          "stop" : 1647611486681,
+          "duration" : 124
         },
         "status" : "passed",
         "steps" : [ ],
@@ -254,8 +254,8 @@
       }, {
         "name" : "assert expected **<input>** to be **empty**",
         "time" : {
-          "start" : 1647611281092,
-          "stop" : 1647611281092,
+          "start" : 1647611486681,
+          "stop" : 1647611486681,
           "duration" : 0
         },
         "status" : "passed",
@@ -269,9 +269,9 @@
       }, {
         "name" : "type cypress{enter}",
         "time" : {
-          "start" : 1647611281092,
-          "stop" : 1647611281377,
-          "duration" : 285
+          "start" : 1647611486681,
+          "stop" : 1647611486918,
+          "duration" : 237
         },
         "status" : "passed",
         "steps" : [ ],
@@ -284,8 +284,8 @@
       }, {
         "name" : "GET https://hn.algolia.com/api/v1/search?query=cypress&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1647611281376,
-          "stop" : 1647611281376,
+          "start" : 1647611486918,
+          "stop" : 1647611486918,
           "duration" : 0
         },
         "status" : "passed",
@@ -306,9 +306,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611281377,
-        "stop" : 1647611281696,
-        "duration" : 319
+        "start" : 1647611486919,
+        "stop" : 1647611487296,
+        "duration" : 377
       },
       "status" : "passed",
       "steps" : [ ],
@@ -321,9 +321,9 @@
     }, {
       "name" : "its .response",
       "time" : {
-        "start" : 1647611281696,
-        "stop" : 1647611281703,
-        "duration" : 7
+        "start" : 1647611487296,
+        "stop" : 1647611487319,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -336,9 +336,9 @@
     }, {
       "name" : "assert expected **0** to equal **0**",
       "time" : {
-        "start" : 1647611281753,
-        "stop" : 1647611281765,
-        "duration" : 12
+        "start" : 1647611487357,
+        "stop" : 1647611487361,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -351,9 +351,9 @@
     }, {
       "name" : "assert expected **[ Array(100) ]** to have property **length**",
       "time" : {
-        "start" : 1647611281768,
-        "stop" : 1647611281773,
-        "duration" : 5
+        "start" : 1647611487363,
+        "stop" : 1647611487367,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -369,8 +369,8 @@
     }, {
       "name" : "assert expected **[ Array(100) ]** to have a length at most **100**",
       "time" : {
-        "start" : 1647611281774,
-        "stop" : 1647611281774,
+        "start" : 1647611487367,
+        "stop" : 1647611487367,
         "duration" : 0
       },
       "status" : "passed",
@@ -390,8 +390,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1647611281774,
-        "stop" : 1647611281774,
+        "start" : 1647611487367,
+        "stop" : 1647611487367,
         "duration" : 0
       },
       "status" : "passed",
@@ -411,9 +411,9 @@
     }, {
       "name" : "get .table > .table-row a",
       "time" : {
-        "start" : 1647611281774,
-        "stop" : 1647611282024,
-        "duration" : 250
+        "start" : 1647611487367,
+        "stop" : 1647611487598,
+        "duration" : 231
       },
       "status" : "passed",
       "steps" : [ ],
@@ -426,8 +426,8 @@
     }, {
       "name" : "assert expected **Cypress vs. Selenium vs. Playwright vs. Puppeteer speed comparison** to match /cypress/i",
       "time" : {
-        "start" : 1647611282430,
-        "stop" : 1647611282430,
+        "start" : 1647611487902,
+        "stop" : 1647611487902,
         "duration" : 0
       },
       "status" : "passed",
@@ -444,8 +444,8 @@
     }, {
       "name" : "assert expected **Cypress vs. Selenium vs. Playwright vs. Puppeteer speed comparison** to match /cypress/i",
       "time" : {
-        "start" : 1647611282430,
-        "stop" : 1647611282430,
+        "start" : 1647611487902,
+        "stop" : 1647611487902,
         "duration" : 0
       },
       "status" : "passed",
@@ -462,8 +462,8 @@
     }, {
       "name" : "assert expected **Underwater Ancient Cypress Forest Offers Clues to the Past** to match /cypress/i",
       "time" : {
-        "start" : 1647611282430,
-        "stop" : 1647611282430,
+        "start" : 1647611487902,
+        "stop" : 1647611487902,
         "duration" : 0
       },
       "status" : "passed",
@@ -480,8 +480,8 @@
     }, {
       "name" : "assert expected **Benchmark: Cypress vs. Selenium vs. Playwright vs. Puppeteer** to match /cypress/i",
       "time" : {
-        "start" : 1647611282430,
-        "stop" : 1647611282430,
+        "start" : 1647611487902,
+        "stop" : 1647611487902,
         "duration" : 0
       },
       "status" : "passed",
@@ -498,9 +498,9 @@
     }, {
       "name" : "assert expected **Cypress is now public beta** to match /cypress/i",
       "time" : {
-        "start" : 1647611282430,
-        "stop" : 1647611282431,
-        "duration" : 1
+        "start" : 1647611487902,
+        "stop" : 1647611487902,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -516,8 +516,8 @@
     }, {
       "name" : "assert expected **Show HN: Sorry-cypress an open-source alternative to Cypress dashboard** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -534,8 +534,8 @@
     }, {
       "name" : "assert expected **Testing with Cypress – Initial Setup** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -552,8 +552,8 @@
     }, {
       "name" : "assert expected **Firefox and Edge Support in Cypress 4.0** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -570,8 +570,8 @@
     }, {
       "name" : "assert expected **Nightwatch.js Runner with UI Like Cypress.io** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -588,8 +588,8 @@
     }, {
       "name" : "assert expected **How we seamlessly connected Redux with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -606,8 +606,8 @@
     }, {
       "name" : "assert expected **Cypress, Selenium, Puppeteer and Playwright performance comparison** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -624,8 +624,8 @@
     }, {
       "name" : "assert expected **How to Test Storybook with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -642,8 +642,8 @@
     }, {
       "name" : "assert expected **Cypress.io Plugin for WebSocket Integration Test of Streaming Apps** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -660,8 +660,8 @@
     }, {
       "name" : "assert expected **Cypress.io: Fast, easy and reliable testing for anything that runs in a browser** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -678,8 +678,8 @@
     }, {
       "name" : "assert expected **Cypress Semiconductor CEO discusses SV, politics and solar** to match /cypress/i",
       "time" : {
-        "start" : 1647611282431,
-        "stop" : 1647611282431,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -696,8 +696,8 @@
     }, {
       "name" : "assert expected **Modern Front End Testing with Cypress.io Framework** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -714,8 +714,8 @@
     }, {
       "name" : "assert expected **Jest, Enzyme vs. Cypress.js – Why writing only e2e tests might be smarter** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -732,8 +732,8 @@
     }, {
       "name" : "assert expected **Migrating Cypress Tests from a GitHub Action to a Netlify Build Plugin** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -750,8 +750,8 @@
     }, {
       "name" : "assert expected **Cypress vs. Selenium vs. Playwright vs. Puppeteer speed comparison** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -768,8 +768,8 @@
     }, {
       "name" : "assert expected **Write Cypress Specs in PHP** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -786,8 +786,8 @@
     }, {
       "name" : "assert expected **JavaScript End to End Testing Framework – Cypress.io** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -804,8 +804,8 @@
     }, {
       "name" : "assert expected **How we got Cypress running solid tests in Continuous Integration** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -822,8 +822,8 @@
     }, {
       "name" : "assert expected **Current Measurements of the PSoC 6 BLE Pioneer Kit from Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487904,
+        "stop" : 1647611487904,
         "duration" : 0
       },
       "status" : "passed",
@@ -840,8 +840,8 @@
     }, {
       "name" : "assert expected **nexmon: Firmware Patching Framework for Broadcom/Cypress WiFi Chips** to match /cypress/i",
       "time" : {
-        "start" : 1647611282432,
-        "stop" : 1647611282432,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -858,8 +858,8 @@
     }, {
       "name" : "assert expected **LibUSB-Based FXLoad for Cypress Semiconductor Chips** to match /cypress/i",
       "time" : {
-        "start" : 1647611282433,
-        "stop" : 1647611282433,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -876,8 +876,8 @@
     }, {
       "name" : "assert expected **Cypress Recorder – write Cypress tests much easier and faster** to match /cypress/i",
       "time" : {
-        "start" : 1647611282433,
-        "stop" : 1647611282433,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -894,8 +894,8 @@
     }, {
       "name" : "assert expected **Changing squid skin color with cypress hill music** to match /cypress/i",
       "time" : {
-        "start" : 1647611282433,
-        "stop" : 1647611282433,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -912,8 +912,8 @@
     }, {
       "name" : "assert expected **Cypress vs. Playwright GitHub stars comparison** to match /cypress/i",
       "time" : {
-        "start" : 1647611282433,
-        "stop" : 1647611282433,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -930,8 +930,8 @@
     }, {
       "name" : "assert expected **Reliable Cypress Browser Testing at Benchling** to match /cypress/i",
       "time" : {
-        "start" : 1647611282434,
-        "stop" : 1647611282434,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -948,8 +948,8 @@
     }, {
       "name" : "assert expected **Comparison of Playwright vs. Cypress for E2E web testing** to match /cypress/i",
       "time" : {
-        "start" : 1647611282434,
-        "stop" : 1647611282434,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -966,8 +966,8 @@
     }, {
       "name" : "assert expected **Automated End-to-End Testing with Selenium and Cypress.io** to match /cypress/i",
       "time" : {
-        "start" : 1647611282434,
-        "stop" : 1647611282434,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -984,8 +984,8 @@
     }, {
       "name" : "assert expected **Testing Login with Cypress.io** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1002,8 +1002,8 @@
     }, {
       "name" : "assert expected **Modern ways of end-to-end testing with Cypress JavaScript** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1020,8 +1020,8 @@
     }, {
       "name" : "assert expected **Visual Unit Tests with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1038,8 +1038,8 @@
     }, {
       "name" : "assert expected **Cypress PSoC without PSoC Creator, using only free/open toolchain** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1056,8 +1056,8 @@
     }, {
       "name" : "assert expected **Cypress solution: 20% tax on deposits over 100k at Bank of Cyprus** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1074,8 +1074,8 @@
     }, {
       "name" : "assert expected **A squid reacts to Cypress Hill** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1092,8 +1092,8 @@
     }, {
       "name" : "assert expected **The colorful results of playing Cypress Hill through a squid** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1110,8 +1110,8 @@
     }, {
       "name" : "assert expected **UI System Tests with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1128,8 +1128,8 @@
     }, {
       "name" : "assert expected **Cypress: Automation Testing Tool** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1146,8 +1146,8 @@
     }, {
       "name" : "assert expected **Protractor is dead, long live Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487905,
+        "stop" : 1647611487905,
         "duration" : 0
       },
       "status" : "passed",
@@ -1164,8 +1164,8 @@
     }, {
       "name" : "assert expected **Things to Avoid When Writing Cypress Tests** to match /cypress/i",
       "time" : {
-        "start" : 1647611282435,
-        "stop" : 1647611282435,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1182,8 +1182,8 @@
     }, {
       "name" : "assert expected **Cypress, E2E tool, raises 40M Series B** to match /cypress/i",
       "time" : {
-        "start" : 1647611282436,
-        "stop" : 1647611282436,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1200,8 +1200,8 @@
     }, {
       "name" : "assert expected **History of Cypress Semiconductor's Internal Startups** to match /cypress/i",
       "time" : {
-        "start" : 1647611282436,
-        "stop" : 1647611282436,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1218,8 +1218,8 @@
     }, {
       "name" : "assert expected **Intel Rocket Lake-S Rumored with Cypress Cove Cores: 20% IPC Uplift over Skylake** to match /cypress/i",
       "time" : {
-        "start" : 1647611282442,
-        "stop" : 1647611282442,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1236,8 +1236,8 @@
     }, {
       "name" : "assert expected **Pytest vs. Cypress: A fair fight in UI testing?** to match /cypress/i",
       "time" : {
-        "start" : 1647611282442,
-        "stop" : 1647611282442,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1254,8 +1254,8 @@
     }, {
       "name" : "assert expected **An in-depth overview of writing Cypress end-to-end tests when using Auth0** to match /cypress/i",
       "time" : {
-        "start" : 1647611282442,
-        "stop" : 1647611282442,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1272,8 +1272,8 @@
     }, {
       "name" : "assert expected **Combining Storybook, Cypress and Jest Code Coverage** to match /cypress/i",
       "time" : {
-        "start" : 1647611282442,
-        "stop" : 1647611282442,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1290,8 +1290,8 @@
     }, {
       "name" : "assert expected **E2E Testing of excel file downloads with cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282442,
-        "stop" : 1647611282442,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1308,8 +1308,8 @@
     }, {
       "name" : "assert expected **Software Automation Testing Tools Series: Cypress vs. TestCafé** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1326,8 +1326,8 @@
     }, {
       "name" : "assert expected **JavaScript Testing #8. Integrating Cypress with Cucumber and Gherkin** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1344,8 +1344,8 @@
     }, {
       "name" : "assert expected **E2E Testing Journey: WebdriverIO to Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1362,8 +1362,8 @@
     }, {
       "name" : "assert expected **I Tested a React App with Jest, Testing Library, Cypress. Here's the Differences** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1380,8 +1380,8 @@
     }, {
       "name" : "assert expected **Infineon Buys Cypress for $10B** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1398,8 +1398,8 @@
     }, {
       "name" : "assert expected **Infineon to Buy Cypress Semiconductor in Multibillion-Dollar Deal** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1416,8 +1416,8 @@
     }, {
       "name" : "assert expected **Gleb Bahmutov: When I First Saw Cypress.io Test Runner, I Knew It Was Special** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1434,8 +1434,8 @@
     }, {
       "name" : "assert expected **Running Cypress Tests in Parallel** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1452,8 +1452,8 @@
     }, {
       "name" : "assert expected **Percy for Cypress: End-to-end visual testing in three steps** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1470,8 +1470,8 @@
     }, {
       "name" : "assert expected **Solving JavaScript equality game with Cypress test runner** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1488,8 +1488,8 @@
     }, {
       "name" : "assert expected **Cypress, e2e testing for the web, officially out of beta** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487906,
+        "stop" : 1647611487906,
         "duration" : 0
       },
       "status" : "passed",
@@ -1506,8 +1506,8 @@
     }, {
       "name" : "assert expected **How to Run Browser Tests via Cypress in Your CI/CD Pipeline with AWS CodeBuild** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1524,8 +1524,8 @@
     }, {
       "name" : "assert expected **Nexmon: The C-based Firmware Patching Framework for Broadcom/Cypress WiFi Chips** to match /cypress/i",
       "time" : {
-        "start" : 1647611282443,
-        "stop" : 1647611282443,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1542,8 +1542,8 @@
     }, {
       "name" : "assert expected **Cypress: Testing, the way it should be** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1560,8 +1560,8 @@
     }, {
       "name" : "assert expected **E2E testing with Cypress: tips and tricks** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1578,8 +1578,8 @@
     }, {
       "name" : "assert expected **Cypress Acquires Broadcom's IoT Business for $550M** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1596,8 +1596,8 @@
     }, {
       "name" : "assert expected **Cypress – a test engine that runs unit and integration tests in your browser** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1614,8 +1614,8 @@
     }, {
       "name" : "assert expected **Cypress testing framework that runs in the browser** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1632,8 +1632,8 @@
     }, {
       "name" : "assert expected **Jest, Enzyme vs. Cypress.js – Why writing only e2e tests might be smarter** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1650,8 +1650,8 @@
     }, {
       "name" : "assert expected **Cypress Test Automation Plugin for AG Grid Demo** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487907,
+        "stop" : 1647611487907,
         "duration" : 0
       },
       "status" : "passed",
@@ -1668,8 +1668,8 @@
     }, {
       "name" : "assert expected **Introduction to Cypress Automation Testing** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1686,8 +1686,8 @@
     }, {
       "name" : "assert expected **Comprehensive Intro to Testing JavaScript and React (Jest, Cypress, RTL)** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1704,8 +1704,8 @@
     }, {
       "name" : "assert expected **EU forces Cypress to confiscate 6.75-10% of bank deposits** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1722,8 +1722,8 @@
     }, {
       "name" : "assert expected **Open-source Cypress (touchpad) drivers available for Linux** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1740,8 +1740,8 @@
     }, {
       "name" : "assert expected **Lightweight liveness checks for websites via CircleCI and Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1758,8 +1758,8 @@
     }, {
       "name" : "assert expected **Transactal Tests for Rails running outside of rails (react, detox, cypress)** to match /cypress/i",
       "time" : {
-        "start" : 1647611282444,
-        "stop" : 1647611282444,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1776,8 +1776,8 @@
     }, {
       "name" : "assert expected **Split Long GitHub Action Workflow into Parallel Cypress Jobs** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1794,8 +1794,8 @@
     }, {
       "name" : "assert expected **CI and End to End Testing: Cypress Percy CircleCI** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1812,8 +1812,8 @@
     }, {
       "name" : "assert expected **Jest, Enzyme vs. Cypress.js** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1830,8 +1830,8 @@
     }, {
       "name" : "assert expected **Synpress – Cypress wrapper with Metamask integration for e2e testing** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1848,8 +1848,8 @@
     }, {
       "name" : "assert expected **Ask HN: Cypress.js Based BDD Testing** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1866,8 +1866,8 @@
     }, {
       "name" : "assert expected **Writing E2E tests for a Next.js app with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1884,8 +1884,8 @@
     }, {
       "name" : "assert expected **How to Automate Accessibility Tests with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1902,8 +1902,8 @@
     }, {
       "name" : "assert expected **Using Cypress to test our Next.js web app** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1920,8 +1920,8 @@
     }, {
       "name" : "assert expected **Running Cypress tests against different environments** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1938,8 +1938,8 @@
     }, {
       "name" : "assert expected **Show HN: Cypress Reporting Library** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1956,8 +1956,8 @@
     }, {
       "name" : "assert expected **Beautiful Cypress dashboard with simple setup** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1974,8 +1974,8 @@
     }, {
       "name" : "assert expected **Pytest vs. Cypress: A fair fight in UI testing?** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1992,8 +1992,8 @@
     }, {
       "name" : "assert expected **We created super fast Cypress tests on GitHub actions** to match /cypress/i",
       "time" : {
-        "start" : 1647611282445,
-        "stop" : 1647611282445,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -2010,8 +2010,8 @@
     }, {
       "name" : "assert expected **Cypress Tutorial for Beginners (Running Your First TestCase)** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487908,
+        "stop" : 1647611487908,
         "duration" : 0
       },
       "status" : "passed",
@@ -2028,8 +2028,8 @@
     }, {
       "name" : "assert expected **Testing VSCode Extensions with Cypress and code-server** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2046,8 +2046,8 @@
     }, {
       "name" : "assert expected **Infineon completes acquisition of Cypress Semiconductor** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2064,8 +2064,8 @@
     }, {
       "name" : "assert expected **How to configure Cypress for multiple testing environments** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2082,8 +2082,8 @@
     }, {
       "name" : "assert expected **Finally properly waiting for iframes to load in Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2100,8 +2100,8 @@
     }, {
       "name" : "assert expected **Don’t Use Wait in Your Cypress Tests** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2118,8 +2118,8 @@
     }, {
       "name" : "assert expected **A guide on generating coverage reports in Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2136,8 +2136,8 @@
     }, {
       "name" : "assert expected **Loading and using a fixture from an API endpoint for Cypress e2e tests** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2154,8 +2154,8 @@
     }, {
       "name" : "assert expected **Generating single mochawesome report with Cypress** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2172,8 +2172,8 @@
     }, {
       "name" : "assert expected **A guide to setting up mochawesome reports with Cypress – pt1** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2190,8 +2190,8 @@
     }, {
       "name" : "assert expected **Cypress now supports Firefox and edge** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2208,8 +2208,8 @@
     }, {
       "name" : "assert expected **Cypress: Fast, easy, and reliable testing for anything that runs in a browser** to match /cypress/i",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282446,
+        "start" : 1647611487909,
+        "stop" : 1647611487909,
         "duration" : 0
       },
       "status" : "passed",
@@ -2226,9 +2226,9 @@
     }, {
       "name" : "eq 1",
       "time" : {
-        "start" : 1647611282446,
-        "stop" : 1647611282530,
-        "duration" : 84
+        "start" : 1647611487909,
+        "stop" : 1647611487978,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2241,9 +2241,9 @@
     }, {
       "name" : "wrap <a>",
       "time" : {
-        "start" : 1647611282531,
-        "stop" : 1647611282558,
-        "duration" : 27
+        "start" : 1647611487979,
+        "stop" : 1647611488003,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2256,9 +2256,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647611282558,
-        "stop" : 1647611282952,
-        "duration" : 394
+        "start" : 1647611488003,
+        "stop" : 1647611488275,
+        "duration" : 272
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2271,8 +2271,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1647611282952,
-        "stop" : 1647611282952,
+        "start" : 1647611488275,
+        "stop" : 1647611488275,
         "duration" : 0
       },
       "status" : "passed",
@@ -2286,9 +2286,9 @@
     }, {
       "name" : "GET 200 https://blog.checklyhq.com/members/api/site/",
       "time" : {
-        "start" : 1647611282952,
-        "stop" : 1647611289756,
-        "duration" : 6804
+        "start" : 1647611488275,
+        "stop" : 1647611494270,
+        "duration" : 5995
       },
       "status" : "passed",
       "steps" : [ ],
@@ -2301,8 +2301,8 @@
     }, {
       "name" : "GET 204 https://blog.checklyhq.com/members/api/member/",
       "time" : {
-        "start" : 1647611289755,
-        "stop" : 1647611289755,
+        "start" : 1647611494269,
+        "stop" : 1647611494269,
         "duration" : 0
       },
       "status" : "passed",
@@ -2316,8 +2316,8 @@
     }, {
       "name" : "GET 200 https://googleads.g.doubleclick.net/pagead/id",
       "time" : {
-        "start" : 1647611289756,
-        "stop" : 1647611289756,
+        "start" : 1647611494269,
+        "stop" : 1647611494269,
         "duration" : 0
       },
       "status" : "passed",
@@ -2331,8 +2331,23 @@
     }, {
       "name" : "GET https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
       "time" : {
-        "start" : 1647611289756,
-        "stop" : 1647611289756,
+        "start" : 1647611494269,
+        "stop" : 1647611494269,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+      "time" : {
+        "start" : 1647611494270,
+        "stop" : 1647611494270,
         "duration" : 0
       },
       "status" : "passed",
@@ -2346,8 +2361,8 @@
     }, {
       "name" : "new url https://blog.checklyhq.com/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison/",
       "time" : {
-        "start" : 1647611289756,
-        "stop" : 1647611289756,
+        "start" : 1647611494270,
+        "stop" : 1647611494270,
         "duration" : 0
       },
       "status" : "passed",
@@ -2361,8 +2376,8 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1647611289756,
-        "stop" : 1647611289756,
+        "start" : 1647611494270,
+        "stop" : 1647611494270,
         "duration" : 0
       },
       "status" : "passed",
@@ -2376,8 +2391,8 @@
     }, {
       "name" : "assert expected **https://blog.checklyhq.com/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison/** to equal **https://blog.checklyhq.com/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison/**",
       "time" : {
-        "start" : 1647611289756,
-        "stop" : 1647611289756,
+        "start" : 1647611494270,
+        "stop" : 1647611494270,
         "duration" : 0
       },
       "status" : "passed",
@@ -2397,7 +2412,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 136,
+    "stepsCount" : 137,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -2420,6 +2435,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7823ca73c64e14d3.json",
+  "source" : "c4533cb1723153e6.json",
   "parameterValues" : [ ]
 }
