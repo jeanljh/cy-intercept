@@ -1,0 +1,71 @@
+[ {
+  "uid" : "eebe8c42f412c30c",
+  "name" : "Intercept request to stub server error",
+  "time" : {
+    "start" : 1647611273618,
+    "stop" : 1647611274048,
+    "duration" : 430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b10b45a997cd9405",
+  "name" : "Intercept request to spy response body from page loading",
+  "time" : {
+    "start" : 1647611262817,
+    "stop" : 1647611273590,
+    "duration" : 10773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a7ebab2da0336d",
+  "name" : "Intercept request to stub entire response body via RouteHandler",
+  "time" : {
+    "start" : 1647611291883,
+    "stop" : 1647611292834,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8326952e2f94f672",
+  "name" : "Intercept request to stub entire response body via StaticResponce",
+  "time" : {
+    "start" : 1647611292844,
+    "stop" : 1647611294135,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7823ca73c64e14d3",
+  "name" : "Intercept request to spy response from search via RouteHandler",
+  "time" : {
+    "start" : 1647611280331,
+    "stop" : 1647611289757,
+    "duration" : 9426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e37ae7d3f8c57629",
+  "name" : "Intercept request to stub network error",
+  "time" : {
+    "start" : 1647611274055,
+    "stop" : 1647611274322,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81419ffa3589d1be",
+  "name" : "Intercept request to stub data in response body via RouteHandler",
+  "time" : {
+    "start" : 1647611289876,
+    "stop" : 1647611291762,
+    "duration" : 1886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
