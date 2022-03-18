@@ -1,0 +1,12 @@
+{
+  "input": "cypress",
+  "defInput": "redux",
+  "hits": [
+    {
+        "title": "playwright",
+        "author": "jean",
+        "num_comments": 100,
+        "points": 10
+    }
+  ]
+}

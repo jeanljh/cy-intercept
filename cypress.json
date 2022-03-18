@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://infinite-savannah-93746.herokuapp.com/",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "defaultCommandTimeout": 20000,
+    "requestTimeout": 10000,
+    "chromeWebSecurity": false,
+    "env": {
+        "allure": true
+    }
+}
