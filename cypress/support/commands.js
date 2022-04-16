@@ -1,3 +1,4 @@
+/// <reference types='cypress' />
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -30,5 +31,5 @@ Cypress.Commands.add('inputSearch', input => {
 })
 
 Cypress.Commands.add('checkResponseTitle', (arr, input) => {
-    expect(arr.findIndex(o => o.title.match(new RegExp(input, 'i')))).to.eq(0)
+    expect(arr.every(o => o.title.match(new RegExp(input, 'i')))).to.be.true
 })

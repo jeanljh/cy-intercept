@@ -1,7 +1,7 @@
 import data from '../fixtures/testdata.json'
 
 describe('Test Suite - Search', () => {
-    beforeEach('Intercept request verify response ', () => {
+    beforeEach('Intercept request verify response', () => {
         cy.intercept({
             method: 'GET',
             path: '**/search?query=redux&page=0&hitsPerPage=100',
