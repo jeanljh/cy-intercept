@@ -1,12 +1,12 @@
 {
-  "uid" : "b241a2ba7c876f2e",
+  "uid" : "68b7ef3898468ad7",
   "name" : "Intercept request to stub network error",
   "fullName" : "Intercept request to stub network error",
   "historyId" : "7605363597ac7ce57ed2213932a81e21",
   "time" : {
-    "start" : 1647611481246,
-    "stop" : 1647611481502,
-    "duration" : 256
+    "start" : 1650099733323,
+    "stop" : 1650099733583,
+    "duration" : 260
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,8 +21,8 @@
     "steps" : [ {
       "name" : "intercept (\"**/search*\"; \"{ forceNetworkError: true }\")",
       "time" : {
-        "start" : 1647611481256,
-        "stop" : 1647611481259,
+        "start" : 1650099733335,
+        "stop" : 1650099733338,
         "duration" : 3
       },
       "status" : "passed",
@@ -36,8 +36,8 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1647611481259,
-        "stop" : 1647611481259,
+        "start" : 1650099733338,
+        "stop" : 1650099733338,
         "duration" : 0
       },
       "status" : "passed",
@@ -51,9 +51,9 @@
     }, {
       "name" : "visit (\"\")",
       "time" : {
-        "start" : 1647611481259,
-        "stop" : 1647611481436,
-        "duration" : 177
+        "start" : 1650099733338,
+        "stop" : 1650099733501,
+        "duration" : 163
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +66,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1647611481436,
-        "stop" : 1647611481470,
-        "duration" : 34
+        "start" : 1650099733501,
+        "stop" : 1650099733537,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,8 +81,8 @@
     }, {
       "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
       "time" : {
-        "start" : 1647611481470,
-        "stop" : 1647611481470,
+        "start" : 1650099733536,
+        "stop" : 1650099733536,
         "duration" : 0
       },
       "status" : "failed",
@@ -96,9 +96,9 @@
     }, {
       "name" : "get p:contains(Something went wrong)",
       "time" : {
-        "start" : 1647611481470,
-        "stop" : 1647611481501,
-        "duration" : 31
+        "start" : 1650099733537,
+        "stop" : 1650099733582,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,8 +111,8 @@
     }, {
       "name" : "assert expected **<p>** to be **visible**",
       "time" : {
-        "start" : 1647611481501,
-        "stop" : 1647611481501,
+        "start" : 1650099733582,
+        "stop" : 1650099733582,
         "duration" : 0
       },
       "status" : "passed",
@@ -126,11 +126,11 @@
     }, {
       "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
       "time" : {
-        "start" : 1647611481501,
-        "stop" : 1647611481501,
+        "start" : 1650099733582,
+        "stop" : 1650099733582,
         "duration" : 0
       },
-      "status" : "passed",
+      "status" : "failed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -164,6 +164,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b241a2ba7c876f2e.json",
+  "source" : "68b7ef3898468ad7.json",
   "parameterValues" : [ ]
 }

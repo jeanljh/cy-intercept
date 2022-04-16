@@ -4,13 +4,13 @@
     "name" : "Test Suite - Main",
     "children" : [ {
       "name" : "Intercept request to spy response body from page loading",
-      "uid" : "e43c50ca7726f36d",
+      "uid" : "5e5b48d2cc8b989a",
       "parentUid" : "d8d9f4b8228691ee3037ae302b33e512",
       "status" : "passed",
       "time" : {
-        "start" : 1647611477707,
-        "stop" : 1647611481030,
-        "duration" : 3323
+        "start" : 1650099721900,
+        "stop" : 1650099732989,
+        "duration" : 11089
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Intercept request to stub server error",
-      "uid" : "38dfa3952f8ceefb",
+      "uid" : "ecafddba2edb932a",
       "parentUid" : "d8d9f4b8228691ee3037ae302b33e512",
       "status" : "passed",
       "time" : {
-        "start" : 1647611481040,
-        "stop" : 1647611481243,
-        "duration" : 203
+        "start" : 1650099733034,
+        "stop" : 1650099733316,
+        "duration" : 282
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Intercept request to stub network error",
-      "uid" : "b241a2ba7c876f2e",
+      "uid" : "68b7ef3898468ad7",
       "parentUid" : "d8d9f4b8228691ee3037ae302b33e512",
       "status" : "passed",
       "time" : {
-        "start" : 1647611481246,
-        "stop" : 1647611481502,
-        "duration" : 256
+        "start" : 1650099733323,
+        "stop" : 1650099733583,
+        "duration" : 260
       },
       "flaky" : false,
       "newFailed" : false,
@@ -59,13 +59,13 @@
     "name" : "Test Suite - Search",
     "children" : [ {
       "name" : "Intercept request to spy response from search via RouteHandler",
-      "uid" : "c4533cb1723153e6",
+      "uid" : "39d567c48ecbbb95",
       "parentUid" : "0886a2a3337ed6832637e8fcbbb1520f",
       "status" : "passed",
       "time" : {
-        "start" : 1647611485832,
-        "stop" : 1647611494271,
-        "duration" : 8439
+        "start" : 1650099740110,
+        "stop" : 1650099749856,
+        "duration" : 9746
       },
       "flaky" : false,
       "newFailed" : false,
@@ -76,13 +76,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Intercept request to stub data in response body via RouteHandler",
-      "uid" : "1762ce8ab5601740",
+      "uid" : "5f74772b720f97a9",
       "parentUid" : "0886a2a3337ed6832637e8fcbbb1520f",
       "status" : "passed",
       "time" : {
-        "start" : 1647611494340,
-        "stop" : 1647611496128,
-        "duration" : 1788
+        "start" : 1650099750098,
+        "stop" : 1650099752008,
+        "duration" : 1910
       },
       "flaky" : false,
       "newFailed" : false,
@@ -93,13 +93,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Intercept request to stub entire response body via RouteHandler",
-      "uid" : "27bb734e2f4b2bb6",
+      "uid" : "627b6a086696e435",
       "parentUid" : "0886a2a3337ed6832637e8fcbbb1520f",
       "status" : "passed",
       "time" : {
-        "start" : 1647611496183,
-        "stop" : 1647611497069,
-        "duration" : 886
+        "start" : 1650099752110,
+        "stop" : 1650099753760,
+        "duration" : 1650
       },
       "flaky" : false,
       "newFailed" : false,
@@ -110,13 +110,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Intercept request to stub entire response body via StaticResponce",
-      "uid" : "d627733d19a8fa8c",
+      "uid" : "69e750b53e5b893",
       "parentUid" : "0886a2a3337ed6832637e8fcbbb1520f",
       "status" : "passed",
       "time" : {
-        "start" : 1647611497080,
-        "stop" : 1647611498157,
-        "duration" : 1077
+        "start" : 1650099753792,
+        "stop" : 1650099754842,
+        "duration" : 1050
       },
       "flaky" : false,
       "newFailed" : false,
