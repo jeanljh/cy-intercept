@@ -1,12 +1,12 @@
 {
-  "uid" : "69e750b53e5b893",
-  "name" : "Intercept request to stub entire response body via StaticResponce",
-  "fullName" : "Intercept request to stub entire response body via StaticResponce",
-  "historyId" : "af18ced54f52450517d7b97d51a1319c",
+  "uid" : "ecc44cfe233e1196",
+  "name" : "Intercept request to stub entire response body via RouteHandler",
+  "fullName" : "Intercept request to stub entire response body via RouteHandler",
+  "historyId" : "58ae91f159d393638e87be62a3dfba42",
   "time" : {
-    "start" : 1650099753792,
-    "stop" : 1650099754842,
-    "duration" : 1050
+    "start" : 1651383415533,
+    "stop" : 1651383416372,
+    "duration" : 839
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Intercept request verify response",
       "time" : {
-        "start" : 1650099753792,
-        "stop" : 1650099754316,
-        "duration" : 524
+        "start" : 1651383415536,
+        "stop" : 1651383416028,
+        "duration" : 492
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"{ method: 'GET',\n  path: '**/search?query=redux&page=0&hitsPerPage=100' }\")",
         "time" : {
-          "start" : 1650099753832,
-          "stop" : 1650099753836,
-          "duration" : 4
+          "start" : 1651383415568,
+          "stop" : 1651383415577,
+          "duration" : 9
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,9 +44,9 @@
       }, {
         "name" : "as (\"req\")",
         "time" : {
-          "start" : 1650099753836,
-          "stop" : 1650099753836,
-          "duration" : 0
+          "start" : 1651383415577,
+          "stop" : 1651383415578,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -59,24 +59,9 @@
       }, {
         "name" : "visit (\"\")",
         "time" : {
-          "start" : 1650099753836,
-          "stop" : 1650099754047,
-          "duration" : 211
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "wait @req",
-        "time" : {
-          "start" : 1650099754047,
-          "stop" : 1650099754266,
-          "duration" : 219
+          "start" : 1651383415578,
+          "stop" : 1651383415772,
+          "duration" : 194
         },
         "status" : "passed",
         "steps" : [ ],
@@ -89,9 +74,24 @@
       }, {
         "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1650099754266,
-          "stop" : 1650099754266,
+          "start" : 1651383415772,
+          "stop" : 1651383415772,
           "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @req",
+        "time" : {
+          "start" : 1651383415772,
+          "stop" : 1651383415983,
+          "duration" : 211
         },
         "status" : "passed",
         "steps" : [ ],
@@ -104,8 +104,8 @@
       }, {
         "name" : "assert expected **true** to be true",
         "time" : {
-          "start" : 1650099754297,
-          "stop" : 1650099754298,
+          "start" : 1651383416025,
+          "stop" : 1651383416026,
           "duration" : 1
         },
         "status" : "passed",
@@ -119,8 +119,8 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have property **length**",
         "time" : {
-          "start" : 1650099754298,
-          "stop" : 1650099754299,
+          "start" : 1651383416026,
+          "stop" : 1651383416027,
           "duration" : 1
         },
         "status" : "passed",
@@ -137,8 +137,8 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have a length at most **100**",
         "time" : {
-          "start" : 1650099754299,
-          "stop" : 1650099754299,
+          "start" : 1651383416027,
+          "stop" : 1651383416027,
           "duration" : 0
         },
         "status" : "passed",
@@ -158,8 +158,8 @@
       }, {
         "name" : "assert expected **200** to equal **200**",
         "time" : {
-          "start" : 1650099754299,
-          "stop" : 1650099754299,
+          "start" : 1651383416027,
+          "stop" : 1651383416027,
           "duration" : 0
         },
         "status" : "passed",
@@ -184,26 +184,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "intercept (\"**/search*\"; \"{ fixture: 'testdata' }\")",
+      "name" : "intercept (\"**/search*\"; \"[function]\")",
       "time" : {
-        "start" : 1650099754320,
-        "stop" : 1650099754390,
-        "duration" : 70
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "as (\"req\")",
-      "time" : {
-        "start" : 1650099754390,
-        "stop" : 1650099754391,
-        "duration" : 1
+        "start" : 1651383416030,
+        "stop" : 1651383416036,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -216,17 +201,17 @@
     }, {
       "name" : "inputSearch (\"cypress\")",
       "time" : {
-        "start" : 1650099754391,
-        "stop" : 1650099754823,
-        "duration" : 432
+        "start" : 1651383416036,
+        "stop" : 1651383416366,
+        "duration" : 330
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get input",
         "time" : {
-          "start" : 1650099754391,
-          "stop" : 1650099754408,
-          "duration" : 17
+          "start" : 1651383416036,
+          "stop" : 1651383416043,
+          "duration" : 7
         },
         "status" : "passed",
         "steps" : [ ],
@@ -239,9 +224,9 @@
       }, {
         "name" : "clear",
         "time" : {
-          "start" : 1650099754408,
-          "stop" : 1650099754590,
-          "duration" : 182
+          "start" : 1651383416043,
+          "stop" : 1651383416152,
+          "duration" : 109
         },
         "status" : "passed",
         "steps" : [ ],
@@ -254,8 +239,8 @@
       }, {
         "name" : "assert expected **<input>** to be **empty**",
         "time" : {
-          "start" : 1650099754590,
-          "stop" : 1650099754590,
+          "start" : 1651383416151,
+          "stop" : 1651383416151,
           "duration" : 0
         },
         "status" : "passed",
@@ -269,9 +254,9 @@
       }, {
         "name" : "type cypress{enter}",
         "time" : {
-          "start" : 1650099754590,
-          "stop" : 1650099754823,
-          "duration" : 233
+          "start" : 1651383416152,
+          "stop" : 1651383416366,
+          "duration" : 214
         },
         "status" : "passed",
         "steps" : [ ],
@@ -284,8 +269,8 @@
       }, {
         "name" : "GET 200 https://hn.algolia.com/api/v1/search?query=cypress&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1650099754823,
-          "stop" : 1650099754823,
+          "start" : 1651383416366,
+          "stop" : 1651383416366,
           "duration" : 0
         },
         "status" : "passed",
@@ -306,9 +291,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1650099754823,
-        "stop" : 1650099754825,
-        "duration" : 2
+        "start" : 1651383416366,
+        "stop" : 1651383416367,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -319,25 +304,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "its .response.body.hits",
+      "name" : "assert expected **[ Array(1) ]** to have a length of **1**",
       "time" : {
-        "start" : 1650099754825,
-        "stop" : 1650099754839,
-        "duration" : 14
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **[ Array(1) ]** to deeply equal **[ Array(1) ]**",
-      "time" : {
-        "start" : 1650099754841,
-        "stop" : 1650099754841,
+        "start" : 1651383416372,
+        "stop" : 1651383416372,
         "duration" : 0
       },
       "status" : "passed",
@@ -345,20 +315,20 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "[\n  {\n    \"title\": \"playwright\",\n    \"author\": \"jean\",\n    \"num_comments\": 100,\n    \"points\": 10\n  }\n]"
+        "value" : "1"
       }, {
         "name" : "expected",
-        "value" : "[\n  {\n    \"title\": \"playwright\",\n    \"author\": \"jean\",\n    \"num_comments\": 100,\n    \"points\": 10\n  }\n]"
+        "value" : "1"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "assert expected **1** to equal **1**",
+      "name" : "assert expected **{ Object (input, defInput, ...) }** to deeply equal **{ Object (input, defInput, ...) }**",
       "time" : {
-        "start" : 1650099754841,
-        "stop" : 1650099754841,
+        "start" : 1651383416372,
+        "stop" : 1651383416372,
         "duration" : 0
       },
       "status" : "passed",
@@ -366,10 +336,28 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "1"
+        "value" : "{\n  \"input\": \"cypress\",\n  \"defInput\": \"redux\",\n  \"hits\": [\n    {\n      \"title\": \"playwright\",\n      \"author\": \"jean\",\n      \"num_comments\": 100,\n      \"points\": 10\n    }\n  ]\n}"
       }, {
         "name" : "expected",
-        "value" : "1"
+        "value" : "{\n  \"input\": \"cypress\",\n  \"defInput\": \"redux\",\n  \"hits\": [\n    {\n      \"title\": \"playwright\",\n      \"author\": \"jean\",\n      \"num_comments\": 100,\n      \"points\": 10\n    }\n  ]\n}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **[ Array(1) ]** to have property **length**",
+      "time" : {
+        "start" : 1651383416372,
+        "stop" : 1651383416372,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[\n  {\n    \"title\": \"playwright\",\n    \"author\": \"jean\",\n    \"num_comments\": 100,\n    \"points\": 10\n  }\n]"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -378,7 +366,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 22,
+    "stepsCount" : 21,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -401,6 +389,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "69e750b53e5b893.json",
+  "source" : "ecc44cfe233e1196.json",
   "parameterValues" : [ ]
 }

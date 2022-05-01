@@ -1,12 +1,12 @@
 {
-  "uid" : "5f74772b720f97a9",
-  "name" : "Intercept request to stub data in response body via RouteHandler",
-  "fullName" : "Intercept request to stub data in response body via RouteHandler",
-  "historyId" : "0aad41fea426c5d779e303d849f0202e",
+  "uid" : "321f24fdeb23d7c9",
+  "name" : "Intercept request to stub entire response body via StaticResponce",
+  "fullName" : "Intercept request to stub entire response body via StaticResponce",
+  "historyId" : "af18ced54f52450517d7b97d51a1319c",
   "time" : {
-    "start" : 1650099750098,
-    "stop" : 1650099752008,
-    "duration" : 1910
+    "start" : 1651383416378,
+    "stop" : 1651383417196,
+    "duration" : 818
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Intercept request verify response",
       "time" : {
-        "start" : 1650099750099,
-        "stop" : 1650099751146,
-        "duration" : 1047
+        "start" : 1651383416378,
+        "stop" : 1651383416809,
+        "duration" : 431
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"{ method: 'GET',\n  path: '**/search?query=redux&page=0&hitsPerPage=100' }\")",
         "time" : {
-          "start" : 1650099750344,
-          "stop" : 1650099750352,
-          "duration" : 8
+          "start" : 1651383416424,
+          "stop" : 1651383416429,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,8 +44,8 @@
       }, {
         "name" : "as (\"req\")",
         "time" : {
-          "start" : 1650099750352,
-          "stop" : 1650099750352,
+          "start" : 1651383416429,
+          "stop" : 1651383416429,
           "duration" : 0
         },
         "status" : "passed",
@@ -59,54 +59,9 @@
       }, {
         "name" : "visit (\"\")",
         "time" : {
-          "start" : 1650099750352,
-          "stop" : 1650099750803,
-          "duration" : 451
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "POST https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
-        "time" : {
-          "start" : 1650099750803,
-          "stop" : 1650099750803,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "POST https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=CaHb5DpQFqG9P9A3&ver=2&cmt=0&fs=0&rt=0&euri=https%3A%2F%2Fblog.checklyhq.com%2Fcypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison%2F&lact=2392&cl=441587635&mos=0&volume=100&cbr=HeadlessChrome&cbrver=100.0.4896.75&c=WEB_EMBEDDED_PLAYER&cver=1.20220413.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&epm=1&hl=en_US&cr=US&len=3&fexp=23940248%2C23983296%2C24001373%2C24002022%2C24002025%2C24004644%2C24007246%2C24080738%2C24082661%2C24129505%2C24134698%2C24135310%2C24169501%2C24181310%2C24184352&feature=oembed&muted=0&docid=w3Qn9noV5ac",
-        "time" : {
-          "start" : 1650099750803,
-          "stop" : 1650099750803,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "POST https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
-        "time" : {
-          "start" : 1650099750803,
-          "stop" : 1650099750803,
-          "duration" : 0
+          "start" : 1651383416429,
+          "stop" : 1651383416608,
+          "duration" : 179
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,9 +74,9 @@
       }, {
         "name" : "wait @req",
         "time" : {
-          "start" : 1650099750803,
-          "stop" : 1650099751079,
-          "duration" : 276
+          "start" : 1651383416608,
+          "stop" : 1651383416784,
+          "duration" : 176
         },
         "status" : "passed",
         "steps" : [ ],
@@ -134,8 +89,8 @@
       }, {
         "name" : "GET https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1650099751079,
-          "stop" : 1650099751079,
+          "start" : 1651383416784,
+          "stop" : 1651383416784,
           "duration" : 0
         },
         "status" : "passed",
@@ -149,9 +104,9 @@
       }, {
         "name" : "assert expected **true** to be true",
         "time" : {
-          "start" : 1650099751142,
-          "stop" : 1650099751144,
-          "duration" : 2
+          "start" : 1651383416806,
+          "stop" : 1651383416807,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -164,8 +119,8 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have property **length**",
         "time" : {
-          "start" : 1650099751144,
-          "stop" : 1650099751145,
+          "start" : 1651383416807,
+          "stop" : 1651383416808,
           "duration" : 1
         },
         "status" : "passed",
@@ -182,8 +137,8 @@
       }, {
         "name" : "assert expected **[ Array(100) ]** to have a length at most **100**",
         "time" : {
-          "start" : 1650099751145,
-          "stop" : 1650099751145,
+          "start" : 1651383416808,
+          "stop" : 1651383416808,
           "duration" : 0
         },
         "status" : "passed",
@@ -203,8 +158,8 @@
       }, {
         "name" : "assert expected **200** to equal **200**",
         "time" : {
-          "start" : 1650099751145,
-          "stop" : 1650099751145,
+          "start" : 1651383416808,
+          "stop" : 1651383416808,
           "duration" : 0
         },
         "status" : "passed",
@@ -224,16 +179,31 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 12,
+      "stepsCount" : 9,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "intercept (\"GET\"; \"**/search*\"; \"[function]\")",
+      "name" : "intercept (\"**/search*\"; \"{ fixture: 'testdata' }\")",
       "time" : {
-        "start" : 1650099751154,
-        "stop" : 1650099751228,
-        "duration" : 74
+        "start" : 1651383416811,
+        "stop" : 1651383416853,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"req\")",
+      "time" : {
+        "start" : 1651383416853,
+        "stop" : 1651383416853,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -246,17 +216,17 @@
     }, {
       "name" : "inputSearch (\"cypress\")",
       "time" : {
-        "start" : 1650099751228,
-        "stop" : 1650099751810,
-        "duration" : 582
+        "start" : 1651383416853,
+        "stop" : 1651383417180,
+        "duration" : 327
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get input",
         "time" : {
-          "start" : 1650099751229,
-          "stop" : 1650099751233,
-          "duration" : 4
+          "start" : 1651383416854,
+          "stop" : 1651383416857,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -269,9 +239,9 @@
       }, {
         "name" : "clear",
         "time" : {
-          "start" : 1650099751233,
-          "stop" : 1650099751364,
-          "duration" : 131
+          "start" : 1651383416857,
+          "stop" : 1651383416972,
+          "duration" : 115
         },
         "status" : "passed",
         "steps" : [ ],
@@ -284,8 +254,8 @@
       }, {
         "name" : "assert expected **<input>** to be **empty**",
         "time" : {
-          "start" : 1650099751364,
-          "stop" : 1650099751364,
+          "start" : 1651383416972,
+          "stop" : 1651383416972,
           "duration" : 0
         },
         "status" : "passed",
@@ -299,9 +269,9 @@
       }, {
         "name" : "type cypress{enter}",
         "time" : {
-          "start" : 1650099751364,
-          "stop" : 1650099751810,
-          "duration" : 446
+          "start" : 1651383416972,
+          "stop" : 1651383417180,
+          "duration" : 208
         },
         "status" : "passed",
         "steps" : [ ],
@@ -312,10 +282,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET https://hn.algolia.com/api/v1/search?query=cypress&page=0&hitsPerPage=100",
+        "name" : "GET 200 https://hn.algolia.com/api/v1/search?query=cypress&page=0&hitsPerPage=100",
         "time" : {
-          "start" : 1650099751810,
-          "stop" : 1650099751810,
+          "start" : 1651383417180,
+          "stop" : 1651383417180,
           "duration" : 0
         },
         "status" : "passed",
@@ -336,9 +306,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1650099751810,
-        "stop" : 1650099751961,
-        "duration" : 151
+        "start" : 1651383417180,
+        "stop" : 1651383417181,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -351,9 +321,9 @@
     }, {
       "name" : "its .response.body.hits",
       "time" : {
-        "start" : 1650099751961,
-        "stop" : 1650099751977,
-        "duration" : 16
+        "start" : 1651383417181,
+        "stop" : 1651383417193,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -364,10 +334,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **title**",
+      "name" : "assert expected **[ Array(1) ]** to deeply equal **[ Array(1) ]**",
       "time" : {
-        "start" : 1650099752007,
-        "stop" : 1650099752007,
+        "start" : 1651383417196,
+        "stop" : 1651383417196,
         "duration" : 0
       },
       "status" : "passed",
@@ -375,38 +345,20 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "{\n  \"created_at\": \"2021-06-29T20:32:33.000Z\",\n  \"title\": \"playwright\",\n  \"url\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n  \"author\": \"jean\",\n  \"points\": 10,\n  \"story_text\": null,\n  \"comment_text\": null,\n  \"num_comments\": 100,\n  \"story_id\": null,\n  \"story_title\": null,\n  \"story_url\": null,\n  \"parent_id\": null,\n  \"created_at_i\": 1624998753,\n  \"_tags\": [\n    \"story\",\n    \"author_greenie_beans\",\n    \"story_27681347\"\n  ],\n  \"objectID\": \"27681347\",\n  \"_highlightResult\": {\n    \"title\": {\n      \"value\": \"Underwater Ancient <em>Cypress</em> Forest Offers Clues to the Past\",\n      \"matchLevel\": \"full\",\n      \"fullyHighlighted\": false,\n      \"matchedWords\": [\n        \"cypress\"\n      ]\n    },\n    \"url\": {\n      \"value\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    },\n    \"author\": {\n      \"value\": \"greenie_beans\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    }\n  }\n}"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **title** of **playwright**",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "playwright"
+        "value" : "[\n  {\n    \"title\": \"playwright\",\n    \"author\": \"jean\",\n    \"num_comments\": 100,\n    \"points\": 10\n  }\n]"
       }, {
         "name" : "expected",
-        "value" : "playwright"
+        "value" : "[\n  {\n    \"title\": \"playwright\",\n    \"author\": \"jean\",\n    \"num_comments\": 100,\n    \"points\": 10\n  }\n]"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **author**",
+      "name" : "assert expected **1** to equal **1**",
       "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
+        "start" : 1651383417196,
+        "stop" : 1651383417196,
         "duration" : 0
       },
       "status" : "passed",
@@ -414,124 +366,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "{\n  \"created_at\": \"2021-06-29T20:32:33.000Z\",\n  \"title\": \"playwright\",\n  \"url\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n  \"author\": \"jean\",\n  \"points\": 10,\n  \"story_text\": null,\n  \"comment_text\": null,\n  \"num_comments\": 100,\n  \"story_id\": null,\n  \"story_title\": null,\n  \"story_url\": null,\n  \"parent_id\": null,\n  \"created_at_i\": 1624998753,\n  \"_tags\": [\n    \"story\",\n    \"author_greenie_beans\",\n    \"story_27681347\"\n  ],\n  \"objectID\": \"27681347\",\n  \"_highlightResult\": {\n    \"title\": {\n      \"value\": \"Underwater Ancient <em>Cypress</em> Forest Offers Clues to the Past\",\n      \"matchLevel\": \"full\",\n      \"fullyHighlighted\": false,\n      \"matchedWords\": [\n        \"cypress\"\n      ]\n    },\n    \"url\": {\n      \"value\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    },\n    \"author\": {\n      \"value\": \"greenie_beans\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    }\n  }\n}"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **author** of **jean**",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "jean"
+        "value" : "1"
       }, {
         "name" : "expected",
-        "value" : "jean"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **num_comments**",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "{\n  \"created_at\": \"2021-06-29T20:32:33.000Z\",\n  \"title\": \"playwright\",\n  \"url\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n  \"author\": \"jean\",\n  \"points\": 10,\n  \"story_text\": null,\n  \"comment_text\": null,\n  \"num_comments\": 100,\n  \"story_id\": null,\n  \"story_title\": null,\n  \"story_url\": null,\n  \"parent_id\": null,\n  \"created_at_i\": 1624998753,\n  \"_tags\": [\n    \"story\",\n    \"author_greenie_beans\",\n    \"story_27681347\"\n  ],\n  \"objectID\": \"27681347\",\n  \"_highlightResult\": {\n    \"title\": {\n      \"value\": \"Underwater Ancient <em>Cypress</em> Forest Offers Clues to the Past\",\n      \"matchLevel\": \"full\",\n      \"fullyHighlighted\": false,\n      \"matchedWords\": [\n        \"cypress\"\n      ]\n    },\n    \"url\": {\n      \"value\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    },\n    \"author\": {\n      \"value\": \"greenie_beans\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    }\n  }\n}"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **num_comments** of **100**",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "100"
-      }, {
-        "name" : "expected",
-        "value" : "100"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **points**",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "{\n  \"created_at\": \"2021-06-29T20:32:33.000Z\",\n  \"title\": \"playwright\",\n  \"url\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n  \"author\": \"jean\",\n  \"points\": 10,\n  \"story_text\": null,\n  \"comment_text\": null,\n  \"num_comments\": 100,\n  \"story_id\": null,\n  \"story_title\": null,\n  \"story_url\": null,\n  \"parent_id\": null,\n  \"created_at_i\": 1624998753,\n  \"_tags\": [\n    \"story\",\n    \"author_greenie_beans\",\n    \"story_27681347\"\n  ],\n  \"objectID\": \"27681347\",\n  \"_highlightResult\": {\n    \"title\": {\n      \"value\": \"Underwater Ancient <em>Cypress</em> Forest Offers Clues to the Past\",\n      \"matchLevel\": \"full\",\n      \"fullyHighlighted\": false,\n      \"matchedWords\": [\n        \"cypress\"\n      ]\n    },\n    \"url\": {\n      \"value\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    },\n    \"author\": {\n      \"value\": \"greenie_beans\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    }\n  }\n}"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** to have deep property **points** of **10**",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "10"
-      }, {
-        "name" : "expected",
-        "value" : "10"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **{ Object (created_at, title, ...) }** not to be undefined",
-      "time" : {
-        "start" : 1650099752008,
-        "stop" : 1650099752008,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "{\n  \"created_at\": \"2021-06-29T20:32:33.000Z\",\n  \"title\": \"playwright\",\n  \"url\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n  \"author\": \"jean\",\n  \"points\": 10,\n  \"story_text\": null,\n  \"comment_text\": null,\n  \"num_comments\": 100,\n  \"story_id\": null,\n  \"story_title\": null,\n  \"story_url\": null,\n  \"parent_id\": null,\n  \"created_at_i\": 1624998753,\n  \"_tags\": [\n    \"story\",\n    \"author_greenie_beans\",\n    \"story_27681347\"\n  ],\n  \"objectID\": \"27681347\",\n  \"_highlightResult\": {\n    \"title\": {\n      \"value\": \"Underwater Ancient <em>Cypress</em> Forest Offers Clues to the Past\",\n      \"matchLevel\": \"full\",\n      \"fullyHighlighted\": false,\n      \"matchedWords\": [\n        \"cypress\"\n      ]\n    },\n    \"url\": {\n      \"value\": \"https://www.lsu.edu/mediacenter/news/2021/06/03ga_delong_ancientcypress.php\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    },\n    \"author\": {\n      \"value\": \"greenie_beans\",\n      \"matchLevel\": \"none\",\n      \"matchedWords\": []\n    }\n  }\n}"
+        "value" : "1"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -540,7 +378,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 31,
+    "stepsCount" : 22,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -563,6 +401,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f74772b720f97a9.json",
+  "source" : "321f24fdeb23d7c9.json",
   "parameterValues" : [ ]
 }

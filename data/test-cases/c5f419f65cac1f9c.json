@@ -1,12 +1,12 @@
 {
-  "uid" : "ecafddba2edb932a",
+  "uid" : "c5f419f65cac1f9c",
   "name" : "Intercept request to stub server error",
   "fullName" : "Intercept request to stub server error",
   "historyId" : "2914c2ec78b8ba9317a90babe5335dd5",
   "time" : {
-    "start" : 1650099733034,
-    "stop" : 1650099733316,
-    "duration" : 282
+    "start" : 1651383402434,
+    "stop" : 1651383402661,
+    "duration" : 227
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "intercept (\"**/search*\"; \"{ statusCode: 500 }\")",
       "time" : {
-        "start" : 1650099733076,
-        "stop" : 1650099733080,
-        "duration" : 4
+        "start" : 1651383402465,
+        "stop" : 1651383402468,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,8 +36,8 @@
     }, {
       "name" : "as (\"req\")",
       "time" : {
-        "start" : 1650099733080,
-        "stop" : 1650099733081,
+        "start" : 1651383402468,
+        "stop" : 1651383402469,
         "duration" : 1
       },
       "status" : "passed",
@@ -51,9 +51,9 @@
     }, {
       "name" : "visit (\"\")",
       "time" : {
-        "start" : 1650099733081,
-        "stop" : 1650099733284,
-        "duration" : 203
+        "start" : 1651383402469,
+        "stop" : 1651383402630,
+        "duration" : 161
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +66,9 @@
     }, {
       "name" : "wait @req",
       "time" : {
-        "start" : 1650099733284,
-        "stop" : 1650099733303,
-        "duration" : 19
+        "start" : 1651383402630,
+        "stop" : 1651383402648,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,8 +81,8 @@
     }, {
       "name" : "GET 500 https://hn.algolia.com/api/v1/search?query=redux&page=0&hitsPerPage=100",
       "time" : {
-        "start" : 1650099733303,
-        "stop" : 1650099733303,
+        "start" : 1651383402648,
+        "stop" : 1651383402648,
         "duration" : 0
       },
       "status" : "passed",
@@ -96,8 +96,8 @@
     }, {
       "name" : "get p:contains(Something went wrong)",
       "time" : {
-        "start" : 1650099733303,
-        "stop" : 1650099733316,
+        "start" : 1651383402648,
+        "stop" : 1651383402661,
         "duration" : 13
       },
       "status" : "passed",
@@ -111,8 +111,8 @@
     }, {
       "name" : "assert expected **<p>** to be **visible**",
       "time" : {
-        "start" : 1650099733316,
-        "stop" : 1650099733316,
+        "start" : 1651383402661,
+        "stop" : 1651383402661,
         "duration" : 0
       },
       "status" : "passed",
@@ -149,6 +149,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ecafddba2edb932a.json",
+  "source" : "c5f419f65cac1f9c.json",
   "parameterValues" : [ ]
 }
