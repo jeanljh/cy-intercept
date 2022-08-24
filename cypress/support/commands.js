@@ -1,4 +1,5 @@
 /// <reference types='cypress' />
+const { _ } = Cypress
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -32,4 +33,18 @@ Cypress.Commands.add('inputSearch', input => {
 
 Cypress.Commands.add('checkResponseTitle', (arr, input) => {
     expect(arr.every(o => o.title.match(new RegExp(input, 'i')))).to.be.true
+})
+
+Cypress.Commands.add('convertToNumberArray', $e => _.map($e, e => _.toNumber(e.innerText)))
+
+Cypress.Commands.add('checkDescendingOrder', val => {
+    for (let i = 0; i < val.length - 1; i++) {
+        expect(val[i]).to.be.gte(val[i + 1])                
+    }
+})
+
+Cypress.Commands.add('checkAscendingOrder', val => {
+    for (let i = 0; i < val.length - 1; i++) {
+        expect(val[i]).to.be.lte(val[i + 1])                
+    }
 })
