@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 24 09:14:57 UTC 2023","Fri Feb 24 09:14:57 UTC 2023","197","","Test Suite - Main","","","","Intercept request to stub network error",""
+"passed","Fri Feb 24 09:15:01 UTC 2023","Fri Feb 24 09:15:03 UTC 2023","1135","","Test Suite - Search","","","","Intercept request to stub data in response body via RouteHandler",""
+"passed","Fri Feb 24 09:14:55 UTC 2023","Fri Feb 24 09:14:57 UTC 2023","1955","","Test Suite - Main","","","","Intercept request to spy response body from page loading",""
+"passed","Fri Feb 24 09:15:07 UTC 2023","Fri Feb 24 09:15:08 UTC 2023","527","","Test Suite - UI","","","","Test sorting for points column",""
+"passed","Fri Feb 24 09:15:06 UTC 2023","Fri Feb 24 09:15:07 UTC 2023","407","","Test Suite - UI","","","","Test column header and position",""
+"passed","Fri Feb 24 09:14:57 UTC 2023","Fri Feb 24 09:14:57 UTC 2023","188","","Test Suite - Main","","","","Intercept request to stub server error",""
+"passed","Fri Feb 24 09:15:07 UTC 2023","Fri Feb 24 09:15:07 UTC 2023","538","","Test Suite - UI","","","","Test sorting for comments column",""
