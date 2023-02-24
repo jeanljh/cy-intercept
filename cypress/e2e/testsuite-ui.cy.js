@@ -9,8 +9,9 @@ describe('Test Suite - UI', () => {
     })
 
     it('Test column header and position', () => {
-        const expected = ['Title', 'Author', 'Comments', 'Points', 'Archive']
-        cy.get('div.table-header > span')
+        const expected = ['Title', 'Author', 'Comments', 'Points', 'Action']
+        cy.get('div.item-header > span')
+        .should('have.length', 5)
         .then($el => _.map($el, 'innerText'))
         .should('deep.equal', expected)
         /** method 2 */
@@ -18,23 +19,23 @@ describe('Test Suite - UI', () => {
     })
 
     it('Test sorting for comments column', () => {
-        cy.contains('div.table-header button', 'Comments').click()
-        cy.get('div.table-row > span:nth-child(3)')
+        cy.contains('div.item-header button', 'Comments').click()
+        cy.get('div.item > span:nth-child(3)')
         .then(cy.convertToNumberArray)
         .then(cy.checkDescendingOrder)
-        cy.contains('div.table-header button', 'Comments').click()
-        cy.get('div.table-row > span:nth-child(3)')
+        cy.contains('div.item-header button', 'Comments').click()
+        cy.get('div.item > span:nth-child(3)')
         .then(cy.convertToNumberArray)
         .then(cy.checkAscendingOrder)
     })
     
     it('Test sorting for points column', () => {
-        cy.contains('div.table-header button', 'Points').click()
-        cy.get('div.table-row > span:nth-child(4)')
+        cy.contains('div.item-header button', 'Points').click()
+        cy.get('div.item > span:nth-child(4)')
         .then(cy.convertToNumberArray)
         .then(cy.checkDescendingOrder)
-        cy.contains('div.table-header button', 'Points').click()
-        cy.get('div.table-row > span:nth-child(4)')
+        cy.contains('div.item-header button', 'Points').click()
+        cy.get('div.item > span:nth-child(4)')
         .then(cy.convertToNumberArray)
         .then(cy.checkAscendingOrder)
     })

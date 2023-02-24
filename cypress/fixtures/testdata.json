@@ -1,6 +1,6 @@
 {
   "input": "cypress",
-  "defInput": "redux",
+  "defInput": "react",
   "hits": [
     {
         "title": "playwright",

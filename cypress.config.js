@@ -15,6 +15,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('@shelex/cypress-allure-plugin/writer')(on, config)
     },
-    baseUrl: 'https://infinite-savannah-93746.herokuapp.com/',
+    baseUrl: 'https://wlsf82-hacker-stories.web.app/',
   },
 })

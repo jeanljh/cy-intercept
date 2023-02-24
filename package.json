@@ -12,8 +12,8 @@
   "author": "jean",
   "license": "ISC",
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.34.0",
-    "allure-commandline": "^2.20.1",
-    "cypress": "^12.3.0"
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "allure-commandline": "^2.21.0",
+    "cypress": "^12.6.0"
   }
 }

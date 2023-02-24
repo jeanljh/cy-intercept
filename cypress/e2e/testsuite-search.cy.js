@@ -4,17 +4,16 @@ describe('Test Suite - Search', () => {
     beforeEach('Intercept request verify response', () => {
         cy.intercept({
             method: 'GET',
-            path: '**/search?query=redux&page=0&hitsPerPage=100',
+            path: '**/search?query=React&page=0',
             // query: {
             //     query: data.defInput,
             //     page: '0',
-            //     hitsPerPage: '100'
             // }
         }).as('req')
         cy.visit('')
         cy.wait('@req').then(({response}) => {
             expect(response.statusCode).to.eq(200)
-            expect(response.body.hits).length.to.be.lte(100)
+            expect(response.body.hits).length.to.be.lte(20)
             cy.checkResponseTitle(response.body.hits, data.defInput)
             // method 2
             // cy.wrap(response.body.hits).each(o => expect(o.title).to.match(new RegExp(data.defInput, 'i')))
@@ -32,16 +31,15 @@ describe('Test Suite - Search', () => {
             query: {
                 query: data.input,
                 page: '0',
-                hitsPerPage: '100'
             } 
         }).as('req')
         cy.inputSearch(data.input)
         cy.wait('@req').its('response').then(res => {
             expect(res.statusCode).to.eq(200)
-            expect(res.body.hits).length.to.be.lte(100)
+            expect(res.body.hits).length.to.be.lte(20)
             cy.checkResponseTitle(res.body.hits, data.input)
         })
-        cy.get('.table > .table-row a').each(e => expect(e.text()).to.match(new RegExp(data.input, 'i')))
+        cy.get('div.item a').each(e => expect(e.text()).to.match(new RegExp(data.input, 'i')))
         .eq(1)
         .then(e => {
             const href = e.attr('href')
@@ -51,14 +49,14 @@ describe('Test Suite - Search', () => {
             // cy.location('href').should('eq', href)
         })
         // method 2
-        // cy.get('.table > .table-row a').then(el => {
+        // cy.get('div.item a').then(el => {
         //     for (const e of el) {
         //         expect(e.textContent).matches(new RegExp(data.input, 'i'))
         //     }
         // })
     })
 
-    it('Intercept request to stub data in response body via RouteHandler', () => {
+    it.only('Intercept request to stub data in response body via RouteHandler', () => {
         cy.intercept('GET', '**/search*', req => {
             req.reply(res => {
                 const o = res.body.hits.find(e => e.author === 'greenie_beans')
