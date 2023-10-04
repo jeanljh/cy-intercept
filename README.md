@@ -1,6 +1,6 @@
 # cy-intercept
 
-[![CI](https://github.com/jeanljh/cy-intercept/actions/workflows/main.yml/badge.svg)](https://github.com/jeanljh/cy-intercept/actions/workflows/main.yml)
+[![CI](https://github.com/jeanljh/cy-intercept/actions/workflows/main.yml/badge.svg)](https://github.com/jeanljh/cy-intercept/actions/workflows/test.yml)
 
 Spy and stub network requests and responses via Cypress intercept.
 
