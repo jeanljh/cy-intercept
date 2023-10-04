@@ -1,0 +1,5 @@
+.gitignore
+.prettierignore
+.prettierrc
+*-report
+*.log

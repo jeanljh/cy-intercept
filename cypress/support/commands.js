@@ -39,12 +39,12 @@ Cypress.Commands.add('convertToNumberArray', $e => _.map($e, e => _.toNumber(e.i
 
 Cypress.Commands.add('checkDescendingOrder', val => {
     for (let i = 0; i < val.length - 1; i++) {
-        expect(val[i]).to.be.gte(val[i + 1])                
+        expect(val[i]).to.be.gte(val[i + 1])
     }
 })
 
 Cypress.Commands.add('checkAscendingOrder', val => {
     for (let i = 0; i < val.length - 1; i++) {
-        expect(val[i]).to.be.lte(val[i + 1])                
+        expect(val[i]).to.be.lte(val[i + 1])
     }
 })
