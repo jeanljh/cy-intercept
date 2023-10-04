@@ -19,9 +19,6 @@ jobs:
         with:
           browser: chrome
         continue-on-error: true
-      
-      - name: Generate Allure report
-        run: npm run allure:report
         
       - name: Deploy report to GitHub pages
         if: github.actor != 'dependabot[bot]'
