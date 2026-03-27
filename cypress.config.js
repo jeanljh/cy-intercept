@@ -7,6 +7,7 @@ module.exports = defineConfig({
     requestTimeout: 10000,
     chromeWebSecurity: false,
     reporter: 'cypress-mochawesome-reporter',
+    allowCypressEnv: false,
     reporterOptions: {
       charts: true,
       embeddedScreenshots: true,
