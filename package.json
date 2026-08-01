@@ -12,6 +12,6 @@
   "devDependencies": {
     "cypress": "^15.18.1",
     "cypress-mochawesome-reporter": "^4.0.2",
-    "prettier": "^3.9.4"
+    "prettier": "^3.9.6"
   }
 }
