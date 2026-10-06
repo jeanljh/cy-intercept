@@ -10,7 +10,7 @@
   "author": "jean",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^15.21.1",
+    "cypress": "^16.1.0",
     "cypress-mochawesome-reporter": "^5.0.0",
     "prettier": "^3.9.9"
   }
